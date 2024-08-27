@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<script>
+  function validateForm() {
+      let prenom = document.getElementById("prenom").value;
+      let nom = document.getElementById("nom").value;
+      let email = document.getElementById("email").value;
+      let dateJour = document.querySelector("select[name='dtJr']").value;
+      let dateMois = document.querySelector("select[name='dtMois']").value;
+      let dateAn = document.querySelector("select[name='dtAn']").value;
+
+      if (prenom === "" || nom === "" || email === "" || dateJour === "" || dateMois === "" || dateAn === "") {
+          alert("Tous les champs doivent être remplis !");
+          return false;
+      }
+
+      // Add email validation or other checks here
+
+      alert("Formulaire envoyé !");
+      return true;
+  }
+
+  function submitForm(event) {
+      event.preventDefault();
+      if (validateForm()) {
+          // If form is valid, submit the form data using AJAX
+          const formData = new FormData(event.target);
+          fetch('process_form.php', {
+              method: 'POST',
+              body: formData
+          })
+          .then(response => response.text())
+          .then(data => {
+              document.getElementById("inscription").reset();
+              alert("Formulaire soumis avec succès !");
+          })
+          .catch(error => console.error('Erreur:', error));
+      }
+  }
+</script>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+<h1><center>Suggestion organisation temporelle</center></h1><br />
+<h2>Organisation hebdomadaire du lieu</h2><br />
+<br />
+<p>Tu te doutes que ce lieu ne servira pas qu'à l'impro. Je suggère le planning suivant :</p>
+<p>Lundis de 11 h à 12 h : body balance : salle polyvalente</p>
+<p>Lundis de 13 h à 17 h : étude : salle polyvalente</p>
+<p>Lundis de 19 h à 20 h : body balance : salle polyvalente</p>
+<p>du mardi au jeudi :</p>
+<p>de 8 h à 12 h et de 13 h à 17 h : étude : salle polyvalente</p>
+<p>Mardis de 19 h 30 à 22 h : atelier d'impro de la troupe principale : salle de spectacles</p>
+<p>Mardis de 19 h à 20 h : pilates : salle polyvalente</p>
+<p>mercredis de 19 h 30 à 21 h 30 : atelier d'impro des initié.e.s : salle polyvalente</p>
+<p>Mercredis de 18 à à 22 h : salle de spectacles : speed-ball</p>
+<p>Jeudis (à partir de 2027) de 19 h 30 à 21 h : atelier d'impro découverte : salle de spectacles</p>
+<p>Jeudis de 19 h à 20 h : body balance : salle polyvalente</p>
+<p>Vendredis de 11 h à 12 h : streching : salle polyvalente</p>
+<p>Vendredis de 8 h à 12 h et de 13 h à 20 h : speed-ball : salle polyvalente</p>
+<p>En moyenne, le troisième samedi du mois : match d'impro</p>
+<p>Samedis : speed-ball : de 8 h à 12 h et de 13 h à 20 h (uniquement les matins lorsque matches d'impro) : salle de spectyacles</p><br />
+<br />
+<h2>étude</h2><br />
+<br />
+<p>Ce sera comme une salle de permanence que tu as peut-être au au collège ou au lycée. Sur réservation, des personnes (dont toi) pourraient étudier en silence, travailler en silence : réviser un cours, préparer un examen, étudier (si tu es au CNED par exemple)...</p>
+<p>L'étude sera surveillée par un.e surveillant.e ou un.e CPE (Conseiller.e Principal.e d'Éducation). Tout manquement, comportement nuisant aux personnes qui étudient est passible d'une exclusion pouvant être définitive.</p>
+<p>Les lieux pourront être utilisés pour des examens (Brevet des Collèges, Baccalauréat, code de la route, concours d'Écoles (comme les Ponts et Chaussées), concours de la Fonction Publique (comme les Finances Publiques)).</p>
+<p>La ponctualité doit être irréprochable. Les lieux ouvrent le matin à 07 h 45. Les portes ferment à 07 h 58, plus personne n'est toléré. Toute tentative d'entrer au-delà de cet horaire est passible d'exclusion.</p>
+<p>Il y aura une pause pour s'aérer de 09 h 55 à 10 h 10. L'étude reprend. Les élèves sont libérés à 12 h.</p>
+<p>Les portes rouvrent à 12 h 45, ferment à 12 h 58. Une pause de 14 h 55 à 15 h 10. Les élèves sont libérés à 17 h 00.</p><br />
+<br />
+<h2>body balance</h2><br />
+<br />
+<p>Cette discipline allie yoga, pilates, tai-chi et streching. Cette gymnastique douce est accessible à chacun.e d'entre nous. C'est tout à fait à ta portée même si tu n'es pas très endurant.e.</p><br />
+<br />
+<h2>speed-ball</h2><br />
+<br />
+<p>Ce sport d'origine égyptienne se pratique avec une ou deux raquettes. Il peut se jouer d'une seule à quatre personnes, à une ou deux raquettes. Concrètement, il y a un socle sur lequel se trouve une bobine métallique et une spirale. tu dois frapper la balle pour la renvoyer en sens opposé : à droite si elle vient de ta droite et à gauche si elle vient de ta gauche.</p>
+<p>Ce sport te permet de travailler tes capacités cardio-respiratoires, la coordination et la vision périphérique. un sport très accessible et complet qui mérite de se développer.</p>
+<p>Il existe des championnats de speed-ball : le match, le double, le super solo et le relais. <a href="https://www.speed-ball.fr/">lien de speed-ball France</a></p><br>
+<br />
+<h2>étés</h2><br />
+<p>Afin que les lieux servent bien à quelque chose, des ateliers, spectacles, championnats auront lieu l'été. Ce environ de la mi-juillet aux environs du vingt août.</p>
+<p>Il n'y aura pas d'étude en cette période.</p><br />
+<h3>semaines</h3><br />
+<p>_speed-ball : dans la salle de spectacles, et dehors si le temps le permet : de 8 h à 17 h</p>
+<p>_ateliers d'impro : tous âges et tous niveaux : dans la salle polyvalente : de 9 h à 11 h et de 15 h à 17 h</p>
+<p>_pilates : de 18 h à 19 h en salle  polyvalente</p>
+<p>_streching : de 11 h 30 à 12 h 30 en salle polyvalente</p>
+<p>_body balance : de 13 h à 14 h en salle polyvalente.</p><br />
+<h3>week-ends</h3><br />
+<p>_speed-ball : dans la salle de spectacles, et dehors si le temps le permet : de 8 h à 17 h.</p>
+<p>_en salle polyvalente :</p>
+<p>_pilates de 9 h 30 à 10 h 30</p>
+<p>_streching de 11 h à 12 h</p>
+<p>_body balance de 14 h à 15 h.</p><br />
+<h3>Un Improvidence</h3><br />
+<p>Comme à Lyon (mais seulement l'été ici), spectacles d'impro à partir de 18 h (matches, cabarets, catches) : </p>
+    <p>_des ateliers de cet été</p>
+    <p>_la troupe principale</p>
+    <p>_les groupes initiés</p>
+    <p>_les groupes découverte</p>
+    <p>_les ancien.ne.s (à long terme lorsque les groupes initiés et découverte auront constitué leurs troupes respectives).</p><br />
+<h3>Stages de formateurs d'impro</h3><br />
+<p>Comme celui que j'ai fait à Impro France (avec Jean-Baptiste Chauvin à Trappes), il y en aura pour former de nouveaux/nouvelles formatrices qui animeront les ateliers :</p>
+<p>_de la troupe principale</p>
+<p>_des groupes initiés</p>
+<p>_des groupes découverte</p>
+<p>_des ateliers d'été</p><br />
+<p>Ils auront lieu :</p>
+<p>_du mardi 10 au jeudi 12 novembre 2026</p>
+<p>_du jeudi 11 au samedi 13 novembre 2027</p><br />
+
+<ul><a href="impro_accueil.html">Retour page d'accueil</a>
+</body>
+
+<footer>
+  <h4><center>Remarques et suggestions</center></h4>
+  <p>Salut!</p>
+  <p>Si tu as des questions, des remarques, des suggestions, merci de m'envoyer un message via ce formulaire.</p>
+
+  <form id="inscription" class="formulaire" method="post" onsubmit="submitForm(event);">
+      <fieldset class="">
+          <legend>Informations personnelles</legend>
+          <p class="champ">
+              <label for="prenom">Prénom</label>
+              <input id="prenom" name="prenom" value="" class="" />
+          </p>
+          <p class="champ">
+              <label for="nom">Nom</label>
+              <input id="nom" name="nom" value="" class="" />
+          </p>
+          <p class="champ">
+              <label for="email">Courriel</label>
+              <input id="email" name="email" value="" class="" />
+          </p>
+          <p class="champ">
+              <label for="dtJr">Date de naissance</label>
+              <select name="dtJr" class="">
+                  <!-- Options pour le jour -->
+              </select> /
+              <select name="dtMois" class="">
+                  <!-- Options pour le mois -->
+              </select> /
+              <select name="dtAn" class="">
+                  <!-- Options pour l'année -->
+              </select>
+          </p>
+          <p class="champ">
+              <label for="sexe">Mode.s de communication de prédilection</label>
+              <select id="sexe" name="sexe" class="">
+                  <option value="NULL"></option>
+                  <option value="SMS">SMS</option>
+                  <option value="courriel">Courriel</option>
+                  <option value="Instagram">Instagram</option>
+                  <option value="TikTok">TikTok</option>
+                  <option value="X">X</option>
+                  <option value="YouTube">YouTube</option>
+              </select>
+          </p>
+          <p class="champ">
+              <label for="Info1">Téléphone</label>
+              <input id="Info1" name="Info1" size="32" value="" class="" />
+          </p>
+          <p class="champ">
+              <label for="Info1">Réseau.x social/sociaux</label>
+              <input id="Info1" name="Info1" size="32" value="" class="" />
+          </p>
+          <p class="champ">
+              <label for="Info1">Message</label>
+              <textarea id="Info1" name="Info1" size="32" class=""></textarea>
+          </p>
+      </fieldset>
+
+      <p class="submit">
+          <input type="submit" value="Envoyer" name="validator" />
+      </p>
+  </form>
+</footer>
+</body>
+</html>
