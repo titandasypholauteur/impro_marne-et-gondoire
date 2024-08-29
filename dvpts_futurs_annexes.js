@@ -23,7 +23,7 @@ var html =  '<!DOCTYPE html>'+
 '<p>_les personnes passant des examens.</p><br />'+
 '<p><center>Les studettes ressembleront à :</center></p>'+
 '<img'+
-'src="studettes/studettes.png"'+
+'src="studettes.png"'+
 'alt="studettes"'+
 'width="400"'+
 'height="341"'+
@@ -31,21 +31,21 @@ var html =  '<!DOCTYPE html>'+
 '<p><center>lits :</center></p>'+
 '<br />'+
 '<img'+
-'src="studettes/DSC00864.JPG"'+
+'src="DSC00864.JPG"'+
 'alt="lits"'+
 'width="400"'+
 'height="341"'+
 'title="lits" />  <br />'+
 '<p><center>meuble TV :</center></p><br />'+
 '<img'+
-'src="studettes/DSC00865.JPG"'+
+'src="DSC00865.JPG"'+
 'alt="meuble TV"'+
 'width="400"'+
 'height="341"'+
 'title="meuble TV" />  <br />'+
 '<p><center>mobilier :</center></p><br />'+
 '<img'+
-'src="studettes/DSC00911.JPG"'+
+'src="DSC00911.JPG"'+
 'alt="mobilier"'+
 'width="400"'+
 'height="341"'+
@@ -53,14 +53,14 @@ var html =  '<!DOCTYPE html>'+
 '<p><center>kitchenette :</center></p>'+
 '<br />'+
 '<img'+
-'src="studettes/DSC00912.JPG"'+
+'src="DSC00912.JPG"'+
 'alt="kitchenette"'+
 'width="400"'+
 'height="341"'+
 'title="kitchenette" />  <br />'+
 '<p><center>toilettes sèches : </center></p>'+
 '<img'+
-'src="studettes/toilettes_seches.png"'+
+'src="toilettes_seches.png"'+
 'alt="toilettes sèches"'+
 'width="400"'+
 'height="341"'+
