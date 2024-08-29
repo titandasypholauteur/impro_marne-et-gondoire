@@ -52,7 +52,7 @@ var html =  '<!DOCTYPE html>'+
 '        <li>sept cents euros annuels (avec une offre à cinq cent septante-deux euros si adhésion le quatre janvier)</li>'+
 '        <p>Quant aux forules sans engagement, c\'est cinq euro l\'atelier ou trente-cinq euros le forfait de dix unités.</p>'+
 '        <br />'+
-'        <ul><a href="impro_accueil.html">Retour page d\'accueil</a>'+
+'        <ul><a href="index.html">Retour page d\'accueil</a>'+
 '        <br />'+
 '    '+
 '    </main>'+

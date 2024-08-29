@@ -98,7 +98,7 @@ var html =  '<!DOCTYPE html>'+
 '        <p>Bussons, Bussons,  </p>'+
 '        <p>Bussons Bussons Bu</p>'+
 '        <br />'+
-'        <ul><a href="impro_accueil.html">Retour page d\'accueil</a>'+
+'        <ul><a href="index.html">Retour page d\'accueil</a>'+
 '        <br />'+
 ''+
 '    </main>'+

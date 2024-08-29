@@ -2,62 +2,107 @@
 $string =  '<!DOCTYPE html>'.
 '<html lang="fr-FR">'.
 '    <head>'.
-'        <title>ENGAGEMENTS TEMPORELS ET TARIFS</title>'.
+'        <title>NOM ET HYMNE</title>'.
 '    </head>'.
 '    <link rel="stylesheet" href="style.css">'.
 '    <main>'.
-'        <h1><center>ENGAGEMENTS TEMPORELS ET TARIFS</center></h1>'.
-'        <br />'.
-'        <p>Comme partout, il convient de respecter le matériel et les personnes.</p>'.
-'        <br />'.
-'        <p>Le respect passe aussi par l\'assiduité, la ponctualité et un minimum d\'investissement dans les activités. tu vas me dire, soit, ce sont des loisirs. Même si c\'est peut-être toléré dans les lieux où tu pratiques tes loisirs, pense aux personnes les suivant et aux animateurs/animatrices. Lorsque quelqu\'un arrive en retard, cela perturbe l\'atelier voire l\'interrompt, fait perdre du temps. Donc vous perdez du temps pour avancer dans le cours ou vous amuser, faire du bien. SI tu manques trop d\'ateliers tu ne sera pas prêt.e pour un spectacle ou championnat (en impro et en speed-ball).</p>'.
-'        <br />'.
-'        <h2>Engagement</h2>'.
-'        <br />'.
-'        <li>Impro</li>'.
-'        <br />'.
-'        <p>Quoique l\'audition soit offerte, les improvisateurs/improvisatrices s\'engagent pour un semestre (groupe initié et groupe découverte) ou pour l\'année (troupe principale)</p>'.
-'        <p>Tout abandon en cas de semestre/année ne sera pas remboursé.</p>'.
-'        <p>Une troupe d\'impro étant un groupe, des absences à répétition pénalisent le groupe tout comme des retards aux ateliers, encore plus aux spectacles.</p>'.
-'        <p>Lors de mon année aux Grands Méchants Flous, l\'un d\'entre nous devait jouer deux cabarets au printemps. Il n\'est pas venu et impossible de le joindre. Il s\'est ensuite excusé sur les réseaux sociaux. Cela ne serait arrivé que ces deux fois mais imagine si tou.te.s les improvisateurs/improvisatrices faisaient ainsi. Nous serions obligés d\'annuler le spectacle ? De faire partir les spectateurs/spectatrices ? De défaire/démonter les équipements de la salle ?</p>'.
-'        <br />'.
-'        <li>speed-ball</li>'.
-'        <br />'.
-'        <p>Pour le speed-ball, il y aura le choix entre:</p>'.
-'        <p>_l\'atelier d\'essai offert</p>'.
-'        <p>_engagement teimestriel</p>'.
-'        <p>_engagement semestriel</p>'.
-'        <p>_engagement annuel</p>'.
-'        <p>Les saisons commencent en janvier, en avril et en octobre.</p>'.
-'        <br />'.
-'        <li>mesures générales</li>'.
-'        <br />'.
-'        <p>Afin de respecter la tranquillité et le bon déroulement de tous les ateliers, les animateurs/animatrices voire le personnel s\'il y en aura tiendront un registre papier ou numérique. </p>'.
-'        <p>En cas d\'assiduité insuffisante et/ou de retards systématiques, l\'adhérent.e sera exclu.e pendant plusieurs mois consécutifs puis définitivement si récidive ou si son comportement nuit au matériel et/aux personnes.</p>'.
-'        <p>En cas de dommages sur le matériel, l\'adhérent.e devra rembourser l\'équipement avec quelques frais s\'élevant à un jour de selaire de tou.te.s les animateurs/animatrices et/ou employé.e.s.</p>'.
-'        <br />'.
-'        <li>quota de présence minimum obligatoire</li>'.
-'        <p>Selon l\'abonnement chosi de l\'adhérent.e :</p>'.
-'        <p>_deux ateliers par mois pour les abonnements mensuels et annuels</p>'.
-'        <p>_trois ateliers obligatoires si forfait de dix unités.</p>'.
-'        <p>Les forfaits sont valables un an. Les unités non utilisées seront définitivement perdues.</p>'.
-'        <br />'.
-'        <h3>formules/forfaits</h3>'.
-'        <br />'.
-'        <p>Les abonnements incluront les différentes activités : impro, speed-ball, body balance, streching, pilates.</p>'.
-'        <p>Pour les études, c\'est cinq euros la demi-journée.</p>'.
-'        <p>Les ateliers d\'essais et auditions d\'impro sont offerts.</p>'.
-'        <br />'.
-'        <p>Les formules proposées sont :</p>'.
-'        <li>septante euros mensuels</li>'.
-'        <li>sept cents euros annuels (avec une offre à cinq cent septante-deux euros si adhésion le quatre janvier)</li>'.
-'        <p>Quant aux forules sans engagement, c\'est cinq euro l\'atelier ou trente-cinq euros le forfait de dix unités.</p>'.
-'        <br />'.
-'        <ul><a href="impro_accueil.html">Retour page d\'accueil</a>'.
-'        <br />'.
-'    '.
-'    </main>'.
 ''.
+'        <h1><center>NOM ET HYMNE DE LA TROUPE</center></h1>'.
+'        <br />'.
+'        <p>Si tu as vu un match d\'impro, tu sais mieux que moi que chaque troupe doit chanter son hymne au début des matches. C\'est une chanson en rapport avec l\'impro et le nom de sa troupe. Je me suis permis de chercher un nom et un hymne.</p>'.
+'        <br />'.
+'        <h2>Les Bussons</h2>'.
+'        <br />'.
+'        <p>J\'ai tout simplement choisi les Bussons :</p>'.
+'        <p>_Bu : comme une des communes de Marne-et-Gondoire</p>'.
+'        <p>_ssons : comme une partie du nom du moulin dans cette commune.</p>'.
+'        <br />'.
+'        <h2>Hymne</h2>'.
+'        <br />'.
+'        <h3>contexte</h3>'.
+'        <br />'.
+'        <p>Avant de te le donner, quelques mots sur comment je l\'ai écrit. L\'année de mon arrivée dans cet environnement, j\'ai appris en allant à l\'événement les virades de l\'espoir qu\'une de mes personnalités préférés se représenterait début 2023. J\'étais hélas occupé à aller voir les Malades de l\'Imaginaire ce soir-là sinon je l\'aurais vue avec plaisir. Ma chanson préférée ce celle-ci est "on", tirée de l\'album éponyme paru au printemps 2018 et qui m\'a fait le plus grand bien une année où je n\'étais pas toujours au top.</p>'.
+'        <br />'.
+'        <p><a href="https://www.youtube.com/watch?v=UBn4OoMgDnU"> chanson de JJ</a></p>'.
+''.
+'        <br />'.
+'        <h3>l\'hymne des bussons</h3>'.
+'        <br />'.
+'        <p>Viens nous voir, viens ici</p>'.
+'        <p>Allez sors de chez toi, tu connais pi</p>'.
+'        <p>Le moulin du Russon, tient à ta vie</p>'.
+'        <p>Amuse-toi, sors-toi de là, admire tous ces bussons</p>'.
+'        <p>Tout autour de toi, et quand ta vie s’effondre (quand ta vie s’effondre)</p>'.
+'        <p>Tu vois que du vert</p>'.
+'        <br />'.
+'        <p>Enfreins le thème</p>'.
+'        <p>Tu t’en fous ce que pense l’arbitre</p>'.
+'        <p>Je regroupe tout pour fabriquer un pont</p>'.
+'        <p>Vers le moulin du Russon</p>'.
+'        <p>Russon, Russon Russon Russon</p>'.
+'        <p>Enfreins le thème</p>'.
+'        <p>Quand quelqu’un te balance une savate</p>'.
+'        <p>Je regroupe assez pour faire des patates</p>'.
+'        <p>Vers le moulin du Russon</p>'.
+'        <p>Russon, Russon Russon Russon</p>'.
+'        <br />'.
+'        <p>Rejoins-nous, soutiens-nous</p>'.
+'        <p>On t’invite au Totem, tes idées en nous</p>'.
+'        <p>A la brasserie sers-nous, les Challans à nous</p>'.
+'        <p>Plein de thèmes, plein d’idées</p>'.
+'        <p>Ose monter dans ce train, voici ton perso</p>'.
+'        <p>Chez nous tu es à l’aise, tu te sens bien</p>'.
+'       <br />'.
+'        <p>Enfreins le thème</p>'.
+'        <p>Tu t’en fous ce que pense l’arbitre</p>'.
+'        <p>Je regroupe tout pour fabriquer un pont</p>'.
+'        <p>Vers le moulin du Russon</p>'.
+'        <p>Russon, Russon Russon Russon</p>'.
+'        <p>Enfreins le thème</p>'.
+'        <p>Quand quelqu’un te balance une savate</p>'.
+'        <p>Je regroupe assez pour faire des patates</p>'.
+'        <p>Vers le moulin du Russon</p>'.
+'        <p>Russon, Russon Russon Russon</p>'.
+'       <br />'.
+'        <p>Thème de je, tu l’as vu</p>'.
+'        <p>Qu’importe la durée</p>'.
+'        <p>Nous au jeu</p>'.
+'        <p>Et vous participez</p>'.
+'        <p>Vote pas pour eux</p>'.
+'        <br />'.
+'        <p>Enfreins le thème</p>'.
+'        <p>Tu t’en fous ce que pense l’arbitre</p>'.
+'        <p>Je regroupe tout pour fabriquer un pont</p>'.
+'        <p>Vers le moulin du Russon</p>'.
+'        <p>Russon, Russon Russon Russon</p>'.
+'        <p>Enfreins le thème</p>'.
+'        <p>Quand quelqu’un te balance une savate</p>'.
+'        <p>Je regroupe assez pour faire des patates</p>'.
+'        <p>Vers le moulin du Russon</p>'.
+'        <p>Russon, Russon Russon Russon</p>'.
+'        <br />'.
+'       '.
+'        <p>Son, bussons, bussons</p>'.
+'        <p>Busson bussons bussons</p>'.
+'        <p>Bussons, Bussons</p>'.
+'        <p>Busson bussons bussons</p>'.
+'        <p>Bussons, Bussons</p>'.
+'        <p>Busson bussons bussons</p>'.
+'        <p>Bussons, Bussons</p>'.
+'        <p>Bussons Bu</p>'.
+'        <p>Son, bussons, bussons</p>'.
+'        <p>Busson bussons bussons</p>'.
+'        <p>Bussons Bussons</p>'.
+'        <p>Bussons, Bussons, Bussons</p>'.
+'        <p>Bussons, bussons</p>'.
+'        <p>Bussons, Bussons, Bussons</p>'.
+'        <p>Bussons, Bussons,  </p>'.
+'        <p>Bussons Bussons Bu</p>'.
+'        <br />'.
+'        <ul><a href="index.html">Retour page d\'accueil</a>'.
+'        <br />'.
+''.
+'    </main>'.
 '    <footer>'.
 ''.
 '        <h4><center>Remarques et suggestions</center></h4>'.
@@ -297,6 +342,7 @@ $string =  '<!DOCTYPE html>'.
 '       '.
 '       '.
 '       </footer>'.
+''.
 '</html>';
 
  echo $string; 
