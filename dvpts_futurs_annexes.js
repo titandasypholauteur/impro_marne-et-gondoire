@@ -45,7 +45,7 @@ var html =  '<!DOCTYPE html>'+
 'title="meuble TV" />  <br />'+
 '<p><center>mobilier :</center></p><br />'+
 '<img'+
-'src="DSC00911.JPG"'+
+'src="DSC00911.JPG'+
 'alt="mobilier"'+
 'width="400"'+
 'height="341"'+
